@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(219, 227, 239);
+}
+
+.services{
+    text-align: center;
+    margin: 0 100px;
+}
+
+.service{
+    float: left;
+    width: calc((100% - 90px) / 3);
+    background-color: white;
+    margin: 15px 15px;
+}
+
+h2{
+    margin: 20px 0;
+}
+p{
+    margin-bottom: 20px;
+    color: gray;
+}
+img{
+    width: 100%;
+}
+
+.clearfix{
+    clear: both;
+}
